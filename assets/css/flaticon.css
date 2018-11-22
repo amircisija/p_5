@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 21/11/2018 17:19
+  	Creation date: 22/11/2018 12:01
   	*/
 
 @font-face {
@@ -24,11 +24,25 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
-        font-size: 2.8em;
-font-style: normal;
-margin-left: 20px;
+  font-size: 36px;
+  font-style: normal;
+}
+
+.header__information [class^="flaticon-"]:before,
+.header__information [class*=" flaticon-"]:before,
+.header__information [class^="flaticon-"]:after,
+.header__information [class*=" flaticon-"]:after {   
+  font-family: Flaticon;
+  font-size: 24px;
+  font-style: normal;
 }
 
 .flaticon-sketch:before { content: "\f100"; }
 .flaticon-tools:before { content: "\f101"; }
 .flaticon-maintenance:before { content: "\f102"; }
+.flaticon-call:before { content: "\f103"; }
+.flaticon-mail:before { content: "\f104"; }
+.flaticon-placeholder:before { content: "\f105"; }
+.flaticon-house:before { content: "\f106"; }
+.flaticon-star:before { content: "\f107"; }
+.flaticon-customer-service:before { content: "\f108"; }
